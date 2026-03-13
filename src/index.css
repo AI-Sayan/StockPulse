@@ -1,0 +1,16 @@
+@import 'tailwindcss';   
+
+@font-face {
+  font-family: "Bitcount Prop Double";
+  src: url("path/to/BitcountPropDouble-VF.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+.bitcount-prop-double {
+  font-family: "Bitcount Prop Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}   
